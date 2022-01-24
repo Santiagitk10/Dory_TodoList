@@ -1,0 +1,124 @@
+body	{
+	text-align: center;
+	justify-content: center;
+}
+
+h2 {
+	margin-top: 20px;
+}
+
+img	{
+	width: 150px;
+}
+
+input	{
+	width: 200px;
+	font-size: 0.7em;
+}
+
+button {
+	display: block;
+	margin: 10px auto;
+	border-radius: 15%;
+	font-size: 0.7em;
+}
+
+ul {
+	text-align: left;
+	padding-right: 20px;
+}
+
+li	{
+	cursor: move;
+	padding-right: 20px;
+	font-size: 0.8em;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.libot {
+	display: inline;
+	font-size: 0.5em;
+	border-radius: 20%;
+}
+
+.checked {
+	text-decoration: line-through;
+}
+
+.confMsg {
+	color: #fff;
+    background-color: #000;
+    box-shadow: -3px 3px 6px #000;
+    padding: 1em 1em 2em 1em;
+    height: 95%;
+    width: 98%;
+    position: absolute;
+    top: 15em;
+    left:1.2em;
+}
+
+.navbar {
+	height: 300px;
+	display: block;
+	background-color: white;
+}
+
+#container {
+	margin: auto;
+	max-width: 300px;
+}
+
+#add1 {
+	margin-right: 0;
+}
+
+#add2 {
+	margin-left: 0;
+}
+
+#clear {
+	margin-top: 0;
+}
+
+
+#main {
+	margin-top: 300px;
+}
+
+#edit {
+	margin-right: 4px;
+}
+
+div.left {
+	padding-right: 5px;
+}
+
+div.right {
+	padding-left: 5px;
+}
+
+.confMsg p {
+	padding-top: 200px;
+}
+
+.confMsg p button {
+	margin: 5px;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 60px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+/*  background-color: red;*/
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
